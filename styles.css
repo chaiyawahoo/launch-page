@@ -7,8 +7,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    padding-top: 325px;
-    padding-bottom: 325px;
+    padding-top: 15vw;
+    padding-bottom: 250px;
 }
 
 @keyframes btn-hover {
