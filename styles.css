@@ -1,0 +1,37 @@
+.navbar {
+    padding: 1.5rem;
+}
+
+.hero-background-img {
+    background-image: url("monkey.jpeg");
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: 0 bottom;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+@keyframes btn-hover {
+    0% {
+        background-color: #2c3e50;
+        border-color: #2c3e50;
+    } 
+    50% {
+        background-color: #95a5a6;
+        border-color: #95a5a6;
+    }
+    100% {
+        background-color: #2c3e50;
+        border-color: #2c3e50;
+    } 
+}
+
+.btn-primary[type="submit"]:hover {
+    animation-name: btn-hover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.footer {
+    padding: 2rem;
+}
