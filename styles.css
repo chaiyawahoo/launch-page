@@ -6,9 +6,9 @@
     background-image: url("monkey.jpeg");
     background-repeat: no-repeat;
     background-size: 105%;
-    background-position: 0 bottom;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    background-position: bottom;
+    padding-top: minmax(0px, 300px);
+    padding-bottom: minmax(0px, 300px);
 }
 
 @keyframes btn-hover {
