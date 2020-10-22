@@ -5,10 +5,10 @@
 .hero-background-img {
     background-image: url("monkey.jpeg");
     background-repeat: no-repeat;
-    background-size: 105%;
+    background-size: cover;
     background-position: bottom;
-    padding-top: minmax(0px, 300px);
-    padding-bottom: minmax(0px, 300px);
+    padding-top: 325px;
+    padding-bottom: 325px;
 }
 
 @keyframes btn-hover {
